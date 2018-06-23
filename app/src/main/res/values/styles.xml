@@ -1,0 +1,19 @@
+<resources>
+    <!-- Style for labels from activity_edit.xml  -->
+    <style name="labelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name=" android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorLabel</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
