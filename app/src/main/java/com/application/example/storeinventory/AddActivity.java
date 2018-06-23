@@ -33,7 +33,6 @@ import static com.application.example.storeinventory.data.StoreContract.StoreEnt
 
 public class AddActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
-
     // Tracking of db changes
     private boolean storeHasChanged = false;
 
